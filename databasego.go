@@ -72,7 +72,7 @@ func (action *UpdateTeacher) GetFromJSON (rawData []byte) {
 	}
 }
 func (action UpdateTeacher) Process() {
-
+	T.Salary = 214
 }
 
 type ReadTeacher struct {
