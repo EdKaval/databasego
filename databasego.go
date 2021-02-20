@@ -21,6 +21,11 @@ type Teacher struct {
 	} `json:"person"`
 }
 
+type Staff struct {
+
+
+}
+
 func (t Teacher) GetCreateAction() DefinedAction {
 	return &CreateTeacher{}
 }
