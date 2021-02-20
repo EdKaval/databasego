@@ -135,6 +135,8 @@ func main() {
 		toDo = obj.GetUpdateAction()
 	case "read":
 		toDo = obj.GetReadAction()
+	case "delete":
+		toDo = obj.GetDeleteAction()
 	}
 	
 	toDo.GetFromJSON(text)
