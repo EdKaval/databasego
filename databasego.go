@@ -72,7 +72,7 @@ func (action *UpdateTeacher) GetFromJSON (rawData []byte) {
 	}
 }
 func (action UpdateTeacher) Process() {
-
+	fmt.Println("Haha")
 }
 
 type ReadTeacher struct {
